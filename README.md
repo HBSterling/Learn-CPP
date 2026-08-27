@@ -1,2 +1,2 @@
-# Ch.1 - C++ Basics
-Running through the first chapter of learncpp.com - Refresh C++ knowledge and practice.
+# C++ Basics - learncpp.com
+Running through the chapters of learncpp.com - Refresh C++ knowledge and practice.
