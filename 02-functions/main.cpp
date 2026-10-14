@@ -11,9 +11,9 @@ int getValueFromUser()
     return input; // Returns the value the user entered back to the caller
 }
 
-void printValues(int x, int y)
+void addValues(int x, int y)
 {
-    std::cout << x << " + " << y << " = " << x+y << '\n'; 
+    std::cout << x << " + " << y << " = " << x + y << '\n'; 
 }
 
 int main()
@@ -21,7 +21,7 @@ int main()
     //int x { getValueFromUser() };
     //int y { getValueFromUser() }; // Reusing the function to avoid repeated code.
 
-    printValues(getValueFromUser(), getValueFromUser()); // Calls for a value from the user twice, to later be added together.
+    addValues(getValueFromUser(), getValueFromUser()); // Calls for a value from the user twice, to later be added together.
 
     return 0;
 }
